@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 18px;
+}
+#header-nav{
+    background-color: rgb(52, 52, 177);
+    border: none;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+#logo-txt{
+    font-size: 1.5em;
+    color: #fff;
+    font-weight: 600;
+}
+#collapsable-nav{
+    text-align: center;
+}
+#nav-list li:hover, #nav-list li:focus{
+background-color: rgb(126, 126, 251);
+}
+#nav-list a{
+    color: #fff;
+}
+#main-content h1{
+    font-weight: 700;
+}
+#menu-chicken, #menu-beef, #menu-sushi{
+    background-color: rgb(156, 156, 247);
+    margin-bottom: 20px;
+}
+#menu-chicken h3, #menu-beef h3, #menu-sushi h3{
+    font-weight: 600;
+}

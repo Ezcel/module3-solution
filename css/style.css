@@ -29,12 +29,13 @@ background-color: rgb(126, 126, 251);
 #nav-list a{
     color: #fff;
 }
-#main-content > h1{
+#main-content h1{
     font-weight: 700;
 }
-#menu-chicken{
+#menu-chicken, #menu-beef, #menu-sushi{
     background-color: rgb(156, 156, 247);
+    margin-bottom: 20px;
 }
-#menu-chicken h3{
+#menu-chicken h3, #menu-beef h3, #menu-sushi h3{
     font-weight: 600;
 }
